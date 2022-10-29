@@ -1,17 +1,87 @@
 <meta charset="UTF-8">
-
+<!--
 <script>
 
     var ano = 2016;
-    var puloLinha = "<br><br>"
+    var pulo1Linha = "<br>"
+    var pulo2Linha = "<br><br>"
 
     document.write("Flávio tem " + (ano - 1977) + " anos");
-    document.write(puloLinha);
+    document.write(pulo2Linha);
     document.write("Joaquim tem " + (ano - 1996) + " anos");
-    document.write("<br>");
+    document.write(pulo1Linha);
 
     ano = 2017;
     document.write("Barney tem " + (ano - 1976) + " anos");
-    document.write("<br>");
+    document.write(pulo1Linha);
+
+</script> -->
+
+<!-- FUNÇÃO-->
+
+
+<script>
+
+    function pulaLinha() {
+        /*TAMBÉM PODE COLOCAR UM ALERT*/
+        //alert("oi");
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    var ano = 2016;
+
+    document.write("Flávio tem " + (ano - 1977) + " anos");
+    pulaLinha();
+    document.write("Joaquim tem " + (ano - 1996) + " anos");
+    pulaLinha();
+
+    ano = 2017;
+    document.write("Barney tem " + (ano - 1976) + " anos");
+    pulaLinha
+
+</script> 
+
+<script>
+
+    //FUNCAO PARA PULAR LINHA - sem parametro
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    //FUNCAO DE IMPRESSÃO - com parametro
+    function mostrar(frase){ /*variavel FRASE  recebe o valor que é passado e dpois é zerada*/
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var ano = 2016;
+
+    mostrar("Lívia tem " + (ano - 1977) + " anos");
+    mostrar("Carlos tem " + (ano - 1996) + " anos");
+
+    ano = 2017;
+    mostrar("Alberto tem " + (ano - 1976) + " anos");
 
 </script>
+
+<!-- <script>
+
+    function somaDoisNumeros() {
+
+        document.write(10 + 20);
+    }
+
+    function multiplicaDoisNumeros() {
+
+        document.write(10 * 20);
+    }
+
+    function divideDoisNumeros () {
+        document.write(10/20);
+    }
+
+</script>  -->
