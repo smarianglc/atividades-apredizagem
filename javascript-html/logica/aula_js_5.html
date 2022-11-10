@@ -1,0 +1,227 @@
+<meta charset="UTF-8">
+<!-- <script>
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaIMC(p,a){
+        return peso/(altura*altura);
+        //mostra("O IMC calculado é: " + imc);
+    }
+
+    var pesoFlavio = 73;
+    var alturaFlavio = 1.71;
+    var imcFlavio = calculaIMC(pesoFlavio, alturaFlavio);
+
+    // var pesoAmigo = 68;
+    // var alturaAmigo = 1.69
+    var imcAmigo = calculaIMC(68, 1.69);
+
+    var totalIMC = imcFlavio+imcAmigo;
+
+    //OUTRA FORMA 
+    //var totalIMC = calculaIMC(73, 1.71)+calculaIMC(68, 1.69);
+
+    // mostra("O imc do Flavio é" + imcFalvio);
+    document.write("A soma dos imc's é " + totalIMC);
+
+    //INTERAGIR COM O USUÁRIO
+    var nome = prompt("Informe o seu nome");
+    var alturaInformada = prompt(nome + ", informe sua altura");
+    var pesoInformado = prompt(nome + ", informe seu peso");
+
+    var imc = calculaImc(alturaInformada, pesoInformado);
+
+    document.write(nome + ", o seu IMC calculado é " + imc);
+   
+</script> -->
+
+<!-- <script>
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function a(numero1, numero2) {
+        return numero1 + numero2;
+    }
+
+    function b(numero1, numero2) {
+        return numero1 / numero2;
+    }
+
+    var resultado = a(10,20) + b(30,2);
+
+    mostra(resultado);
+</script> -->
+
+
+<!-- <script>
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function a(texto) {
+
+        return "(" + texto + ")";
+    }
+
+    function b(texto) {
+
+        return "@" + texto + "@";
+    }
+
+    function c(nome, sobrenome) {
+
+        return b(nome + " " + a(sobrenome));
+
+    }
+
+    var resultado = c("Flávio", "Almeida");
+
+    mostra(resultado);
+
+</script> -->
+
+<!-- <script> 
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var vitorias = parseInt(prompt("Entre com o número de vitórias."));
+    var empates = parseInt(prompt("Entre com o número de empates."));
+
+    var pontos = vitorias  * 3 + empates;
+
+    mostra("Os pontos do seu time são " + pontos);
+</script> -->
+
+<!-- <script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var convidados = prompt("Número de convidados");
+    var vips = prompt("Número de convidados VIP's");
+
+    var total = convidados + vips;
+
+    mostra("O total de convidados é " + total);
+
+</script> -->
+
+<!-- <script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    var vitorias = parseInt(prompt("Entre com o número de vitórias."));
+    var empates = parseInt(prompt("Entre com o número de empates."));
+    var pontos = (vitorias * 3) + empates;
+
+    if(false) {
+        mostra("Seu time está melhor do que no ano passado.");
+
+    }
+    if(false) {
+        mostra("Seu time está pior do que no ano passado.");
+    }
+    if(false) {
+        mostra("Seu time está igual ao ano passado.");
+    }
+
+    mostra("FIM");
+</script> -->
+
+<!-- <script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+        return peso / (altura * altura);
+    }
+
+    var nome = prompt("Informe o seu nome");
+    var alturaInformada = prompt(nome + ", informe sua altura");
+    var pesoInformado = prompt(nome + ", informe seu peso");
+
+    var imc = calculaImc(alturaInformada, pesoInformado);
+
+    mostra(nome + ", o seu IMC é " + imc);
+    if(imc < 18.5) {
+        mostra("Você está abaixo do recomendado")
+    }
+    if(imc > 35) {
+        mostra("Você está acima do recomendado");
+    }
+    if(imc >= 18.5) {
+        if(imc <= 35) {
+            mostra("Seu IMC está excelente!");
+        }
+    }
+
+</script> -->
+
+<!-- JOGO DE ADIVINHA -->
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numeroPensado = 5;
+    var chute = parentInt(prompt("Digite seu chuete"));
+
+    if (chute == numeroPensado){
+        mostra("Voce errou, o numero pensado foi " + numeroPensado);
+    }
+</script>
