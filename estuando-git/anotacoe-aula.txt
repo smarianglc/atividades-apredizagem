@@ -2,3 +2,6 @@
 
 ----------para abrir o VScode no GitHub--------
 dentro do repositório: Add file > precione e mantem 'create new file' no teclado clica 3 vezes na tecla ponto (.) 
+
+--------- commit no VScode do GitHub------------
+em controle de codigo ver as atualizações e dar o commit
