@@ -1,0 +1,4 @@
+################## AULA 2 #########################
+
+----------para abrir o VScode no GitHub--------
+dentro do repositório: Add file > precione e mantem 'create new file' no teclado clica 3 vezes na tecla ponto (.) 
