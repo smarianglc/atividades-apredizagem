@@ -1,5 +1,3 @@
-################## AULA 2 #########################
-
 ----------para abrir o VScode no GitHub--------
 dentro do repositório: Add file > precione e mantem 'create new file' no teclado clica 3 vezes na tecla ponto (.) 
 
@@ -8,3 +6,24 @@ em controle de codigo ver as atualizações e dar o commit
 
 --------- escolher o arquivo de commit --------
 git commit nome_arquivo.extensao "texto"
+
+---------------- ver versões -----------------
+git log --oneline
+
+-------------------- banch -------------------
+linha de comando para criar:
+	git checkout -b nome_banch
+
+voltar para a banch anterior
+	git switch nome_banch_anterior
+
+passar o que foi alterado para nome_banch:
+	git add . (ou com apenas o arquivo modificado)
+	git commit -m "texto"
+	git push origin nome_banch
+
+------------ passar da nome_banch para nome_banch_anterior --------------
+	git banch
+	git switch nome_banch_anterior
+	git merge nome_banch
+	git push origin nome_banch_anterior
