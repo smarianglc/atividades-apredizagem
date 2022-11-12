@@ -1,3 +1,3 @@
 # atividades-apredizagem
 
-neste repositório são anotações de estudos 
+- Estudando um pouco de tudo para ser QA 
