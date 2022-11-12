@@ -1,0 +1,22 @@
+{
+  "name": "primeiro_projeto",
+  "version": "1.0.0",
+  "description": "primeiro projeto cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smarianglc/atividades-apredizagem.git"
+  },
+  "author": "maria angelica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smarianglc/atividades-apredizagem/issues"
+  },
+  "homepage": "https://github.com/smarianglc/atividades-apredizagem#readme",
+  "devDependencies": {
+    "cypress": "^11.0.1"
+  }
+}

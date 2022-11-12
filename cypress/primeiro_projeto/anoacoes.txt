@@ -1,0 +1,36 @@
+----PARA INICIAR O PROJETO-----
+abrir o terminal, no diretorio que deseja desenvolver --> npm init 
+
+----CONFIGURENDO----
+pode dando apenas enter, para confirmar
+    Descrição: "texto de Descrição"
+    comandao de Teste: npx cypress open
+se quiser colocar no github pode colocar 
+    palavra chave: é do repositorio do github
+    confirmar (yes) 
+
+---- EXECUTAR E VER A INTERFACE GRAFICA DO CYPRESS ---
+npm run test
+
+---------------CRIANDO O PRIMIERO TESTE------------- /*NENHUM TESTE PODE DEPENDER DO OUTRO*/
+1º no terminal dar o comando de executar a interface --> npm run test
+2º execute o teste que se encontra --> 1-getting-stared\todo.cy.js
+3º executado volte ao vscode, procure o todo.cy.js  --> cypress\e2e\1-getting-stared\todo.cy.js
+4º encontre o describe
+
+            ***O QUE FAZ O DESCRIBE?***
+            é uma função que tem dois argumentos: 
+                1º nome da suíte de teste, o que vou contemplar nesse conjunto de testes
+                2º é uma função onde eu posso executar qualquer coida dentro, uma callback
+            
+            ***O QUE FAZ O BEFOREEACH?***
+            ele é um comando que vai ser executado do inicio de cada caso de teste
+
+            ***ABERTURA DE UMA PAGINA***
+            comando --> cy.visit('URL da pagina')
+    
+            ***CASO DE TESTE***
+            it('espeficando como fazer o teste para os itens', ()
+                cy.get('.obter-elemento).should('.garantir.verificacao', 2) /*quantidade de itens = 2*/
+
+5º cria um novo arquivo e segue os padrões do todo.cy.js
