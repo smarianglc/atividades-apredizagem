@@ -1,0 +1,44 @@
+----------PLUGS------------
+-baixa do VsCode mesmo
+    ES6 Mocha Snippets  
+    Cypress Snippets
+    Add Only
+    Fold Plus (comando para usar ctrl+shft+p)
+
+----------PASSOS PARA CRIAR UM PROJETO--------------
+---------------comandos no terminal-----------------
+1. no terminal dentro da pasta execute o comando 
+    - npm init --yes (é criado um arquivo package.json para com informações de scripts que será executado)
+
+2. instalar o pacote Cypress
+    - npm install -D cypress
+
+3. criar uma estrutura de pastas padrão
+    - npx cypress open (responsavel por abrir o cypress e criar, pode demorar um tempinho e dar erro mas tente novamente)
+
+------criando pastas quando abre o cypress---------
+- fixtures (para armazedas dadose arquivos de mocks)
+- integration (paraarmazenar arquivos de testes)
+- plugsins (configuração de plugs)
+- support (arquivos auxiliarese de suporte ao teste)
+
+- PASTAS CRIADAS DURANTE OS TESTES:
+- screenshots (printd/screenshots durate  teste)
+- videos (fazer videos durante os testes)
+
+---------------DESENVOLVENDO PROJETO-------------------
+1. LojaWeb fazer login no link 
+    1.1 clicar botão "Entrar"
+    1.2 clicar no campo "CPF"
+    1.2.1 preencher o campo "CPF"
+    1.3 clicar no campo "senha"
+    1.3.1 preencher o campo "senha"
+
+2. No seu prórpio navegador abre o "inspecionar", 
+    2.1 usar o 'elements', 'console' e alguns casos 'application' -> 'local St
+
+
+
+
+---------------PESQUISAR SOBRE O ASSUNTO------------------------
+- o que são mocks? (é simulação de uma dependecia de um sistema externo)
