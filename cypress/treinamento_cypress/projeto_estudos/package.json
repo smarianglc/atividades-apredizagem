@@ -4,7 +4,7 @@
   "description": "testes de estudos",
   "main": "index.js",
   "scripts": {
-    "test": "testando"
+    "test": "test"
   },
   "author": "Maria Angelica",
   "license": "ISC",
