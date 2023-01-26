@@ -11,13 +11,13 @@ context('LojaWeb20 Demo Produção', () => {
         cy.visit('https://hom-prod-20.playservicos.com.br/')
 
         //REALIZANDO O MAPEAMENTO DOS ELEMENTOS DA TELA
-        cy.get('.ph-list-light').click() //class do menu 
-        cy.get('button').contains('Entrar').click //botão entrar 
+        cy.get('.flex .items-center').find('i').click() //class do menu 
+        cy.get('button').contains('Entrar').click() //botão entrar 
         cy.get('[type=text]').click() //atributos do campo email
-        cy.get('[type="text"]').type('0279259514')
+        cy.get('[type="text"]').type('02792595140')
         cy.get('[type="password"]').click() //atributos do campo senha
-        cy.get('[type="password"]').type('12345678')
-        cy.get('[type="button"]').click() //botão entrar para fazer login
+        cy.get('[type="password"]').type('123123123')
+        cy.get('button').contains('Entrar').click() //botão entrar para fazer login
 
         //DECREVER AS INTERAÇÕES COM A TELA
         /* 
