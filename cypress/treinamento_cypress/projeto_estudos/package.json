@@ -1,15 +1,14 @@
 {
   "name": "projeto_estudos",
   "version": "1.0.0",
-  "description": "",
+  "description": "testes de estudos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "testando"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Maria Angelica",
   "license": "ISC",
-  "devDependencies": {
-    "cypress": "^12.3.0"
+  "dependencies": {
+    "cypress": "^12.4.0"
   }
 }
