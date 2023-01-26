@@ -7,11 +7,8 @@ context('LojaWeb20 Demo Produção', () => {
         //3º desenvolver os testes automatizados
         //4º adicionar as asserções para validar os resultados dos testes
         
-        //ACESSAR A URL DESEJADA
-        cy.visit('https://lojaweb20.com.br/entrar')
-
         //REALIZANDO O MAPEAMENTO DOS ELEMENTOS DA TELA
-        //cy.get('#before').click() //class do menu 
+        cy.get('.ph-list-light').click() //class do menu 
         cy.get('button').contains('Entrar').click //botão entrar 
         cy.get('[type="text"]').click() //atributos do campo email
         cy.get('[type="text"]').type('0279259514')
