@@ -4,11 +4,14 @@
   "description": "testes de estudos",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "npx cypress open"
   },
   "author": "Maria Angelica",
   "license": "ISC",
   "dependencies": {
     "cypress": "^12.4.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
