@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Case Connect Plus",
+    "description": "Mapeamento de casos de testes",
+    "author": "Maria Angelica",
+    "browser_action":{
+        "defailt_title": "Plug maps",
+        "default_popup": "extensao.html"
+    }
+}
